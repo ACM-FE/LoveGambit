@@ -978,7 +978,8 @@ MonoBehaviour:
   nameText: Rook
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 74c0e63d5b6790c4fafd0ab24a985b57, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -2434,11 +2435,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 565.411, y: -162.49565}
+  scrollPos: {x: 1472.9739, y: -220.70999}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 520
-  zoom: 0.52
+  zoom: 0.45999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2446,9 +2447,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1873714586}
+  - {fileID: 1873714672}
   selectedCommands:
-  - {fileID: 1873714636}
+  - {fileID: 1873714675}
   variables: []
   description: 
   stepPause: 0
@@ -3763,7 +3764,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 13.155537
-    y: 690.04767
+    y: 688.1246
     width: 110.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4986,8 +4987,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 21.831684
-    y: 968.0528
+    x: 27.600914
+    y: 969.9759
     width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5534,18 +5535,18 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 929048067}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 74c0e63d5b6790c4fafd0ab24a985b57, type: 3}
   offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  fromPosition: {fileID: 477990811}
+  toPosition: {fileID: 1631928884}
   facing: 0
-  useDefaultSettings: 1
+  useDefaultSettings: 0
   fadeDuration: 0.5
-  moveDuration: 1
+  moveDuration: 1.2
   shiftOffset: {x: 0, y: 0}
-  move: 0
+  move: 1
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &1873714676
 MonoBehaviour:
   m_ObjectHideFlags: 2

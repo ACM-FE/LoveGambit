@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 751b5683f8605ab4cb63260250533300
+guid: 74c0e63d5b6790c4fafd0ab24a985b57
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2785737333286991246
-    second: PLACEHOLDER-school_0
+      213: 8441709307702255157
+    second: The Rook!_0
+  - first:
+      213: -8724506483179850035
+    second: The Rook!_1
+  - first:
+      213: 4560929239914369134
+    second: The Rook!_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PLACEHOLDER-school_0
+      name: The Rook!_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 626
-        height: 313
+        x: 15
+        y: 175
+        width: 74
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27a82e3a7a21759d0800000000000000
-      internalID: -2785737333286991246
+      spriteID: 53e93b6a3e9f62570800000000000000
+      internalID: 8441709307702255157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Rook!_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 35
+        width: 298
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6f875f3935ce680800000000000000
+      internalID: -8724506483179850035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Rook!_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 175
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60d9c69afcab4f30800000000000000
+      internalID: 4560929239914369134
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PLACEHOLDER-school_0: -2785737333286991246
+      The Rook!_0: 8441709307702255157
+      The Rook!_1: -8724506483179850035
+      The Rook!_2: 4560929239914369134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
