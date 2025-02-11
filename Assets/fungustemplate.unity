@@ -482,7 +482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &348743874
 RectTransform:
   m_ObjectHideFlags: 0
@@ -907,10 +907,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Student Council Rep
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 6851498383279292439, guid: 8f79857dd018213428a2f38b6fb823d3, type: 3}
+  - {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667, type: 3}
+  - {fileID: -5969063626333378573, guid: 98f39ab4611054047b388664aa14eb31, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1237,8 +1238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 263.13}
-  m_SizeDelta: {x: 357, y: 435}
+  m_AnchoredPosition: {x: -199.75, y: 240.31}
+  m_SizeDelta: {x: 399.51, y: 480.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090525223
 MonoBehaviour:
@@ -2207,6 +2208,24 @@ GameObject:
   - component: {fileID: 1873714637}
   - component: {fileID: 1873714636}
   - component: {fileID: 1873714638}
+  - component: {fileID: 1873714639}
+  - component: {fileID: 1873714640}
+  - component: {fileID: 1873714641}
+  - component: {fileID: 1873714653}
+  - component: {fileID: 1873714652}
+  - component: {fileID: 1873714651}
+  - component: {fileID: 1873714650}
+  - component: {fileID: 1873714649}
+  - component: {fileID: 1873714648}
+  - component: {fileID: 1873714647}
+  - component: {fileID: 1873714645}
+  - component: {fileID: 1873714644}
+  - component: {fileID: 1873714643}
+  - component: {fileID: 1873714642}
+  - component: {fileID: 1873714656}
+  - component: {fileID: 1873714655}
+  - component: {fileID: 1873714654}
+  - component: {fileID: 1873714657}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2271,8 +2290,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 0.052189827
-    y: -132.05338
+    x: -7.276922
+    y: -141.38249
     width: 147.69
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2317,11 +2336,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 300.8589, y: 7.824485}
+  scrollPos: {x: 275.6543, y: -654.2865}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.85000014
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2329,9 +2348,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1873714586}
+  - {fileID: 1873714648}
   selectedCommands:
-  - {fileID: 1873714638}
+  - {fileID: 1873714647}
   variables: []
   description: 
   stepPause: 0
@@ -2375,7 +2394,8 @@ MonoBehaviour:
   storyText: Hello P.C! It is a pleasure to meet you as well!
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2402,7 +2422,8 @@ MonoBehaviour:
   storyText: '*Stares back intensely*'
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2513,7 +2534,8 @@ MonoBehaviour:
     our peers.
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2540,7 +2562,8 @@ MonoBehaviour:
   storyText: "It\u2019s just called that do not worry! We are a normal high-school!"
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2570,7 +2593,8 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2597,7 +2621,8 @@ MonoBehaviour:
   storyText: Hi! You must be the new transfer student!
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2649,7 +2674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1.1046406
+    x: 6.5840907
     y: 53.81628
     width: 163.22
     height: 40
@@ -2681,7 +2706,8 @@ MonoBehaviour:
     about this place being a boarding school on their first day.
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2824,8 +2850,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 20.66429
-    y: -40.372593
+    x: 19.294426
+    y: -41.372593
     width: 117.88
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2859,7 +2885,8 @@ MonoBehaviour:
   storyText: You do not have a choice in this matter, let us commence.
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2888,7 +2915,8 @@ MonoBehaviour:
     the brutal high school culture, you do not want to get bullied now, do you?\u201D"
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 6851498383279292439, guid: 8f79857dd018213428a2f38b6fb823d3,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2915,7 +2943,8 @@ MonoBehaviour:
   storyText: Lovely! We should get started! Follow me!
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2940,7 +2969,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 223.70952
-    y: 295.59167
+    y: 294.27588
     width: 165.28
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2951,6 +2980,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1873714610}
+  - {fileID: 1873714640}
   - {fileID: 1873714558}
   - {fileID: 1873714583}
   suppressAllAutoSelections: 0
@@ -3104,7 +3134,8 @@ MonoBehaviour:
     can be pretty confusing to newcomers!
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3170,8 +3201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1.1050298
-    y: 194.1339
+    x: -0.21075928
+    y: 191.76404
     width: 159.42
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3261,7 +3292,8 @@ MonoBehaviour:
     you store your belongings!
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3288,7 +3320,8 @@ MonoBehaviour:
   storyText: 'Here are the locker rooms! '
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3375,8 +3408,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 21.00663
-    y: 444.64752
+    x: 20.827206
+    y: 443.47104
     width: 110.53
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3388,6 +3421,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1873714609}
   - {fileID: 1873714637}
+  - {fileID: 1873714639}
+  - {fileID: 1873714641}
   - {fileID: 1873714636}
   - {fileID: 1873714638}
   - {fileID: 1873714581}
@@ -3513,7 +3548,8 @@ MonoBehaviour:
     hang out here occasionally, that feels oddly specific though."
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3537,8 +3573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 234.7531
-    y: 555.6768
+    x: 229.832
+    y: 549.66254
     width: 165.66
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3590,7 +3626,8 @@ MonoBehaviour:
     are more private so I wanted to mention.
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: 6851498383279292439, guid: 8f79857dd018213428a2f38b6fb823d3,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3614,8 +3651,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -6.2550697
-    y: 564.8363
+    x: -7.4745817
+    y: 563.6168
     width: 165.28
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3642,8 +3679,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 14.458197
-    y: 696.42377
+    x: 13.155537
+    y: 688.9838
     width: 110.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3701,7 +3738,8 @@ MonoBehaviour:
     some private time!"
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3725,7 +3763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -238.48233
+    x: -237.34596
     y: 556.67596
     width: 163.59
     height: 40
@@ -3757,7 +3795,8 @@ MonoBehaviour:
     some peace and quiet this is a perfect spot to relax in!"
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3784,7 +3823,8 @@ MonoBehaviour:
   storyText: Some of the others have to reach all the way up there!
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3811,7 +3851,8 @@ MonoBehaviour:
   storyText: 'Lucky! '
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3838,7 +3879,8 @@ MonoBehaviour:
   storyText: 'Your locker is E1! Your student ID card should open it! '
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3865,7 +3907,8 @@ MonoBehaviour:
   storyText: 'Here are the lockers! '
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4041,7 +4084,8 @@ MonoBehaviour:
     school policy."
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4066,7 +4110,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -14.638409
-    y: 837.9745
+    y: 835.4392
     width: 168.56
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4076,8 +4120,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1873714618}
   - {fileID: 1873714627}
+  - {fileID: 1873714618}
+  - {fileID: 1873714655}
   suppressAllAutoSelections: 0
 --- !u!114 &1873714620
 MonoBehaviour:
@@ -4173,7 +4218,8 @@ MonoBehaviour:
     there is a lot of students here, and everyone needs a locker after all.
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4197,8 +4243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 193.0522
-    y: 837.3861
+    x: 184.30655
+    y: 842.26404
     width: 168.93
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4209,6 +4255,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1873714623}
+  - {fileID: 1873714654}
   suppressAllAutoSelections: 0
 --- !u!114 &1873714625
 MonoBehaviour:
@@ -4229,7 +4276,8 @@ MonoBehaviour:
     and we can\u2019t hang around for too long"
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4253,8 +4301,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -216.51604
-    y: 835.3943
+    x: -214.07701
+    y: 834.1748
     width: 166.87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4265,6 +4313,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1873714625}
+  - {fileID: 1873714656}
   suppressAllAutoSelections: 0
 --- !u!114 &1873714627
 MonoBehaviour:
@@ -4284,7 +4333,8 @@ MonoBehaviour:
     as it does not damage the locker in any way.
   description: 
   character: {fileID: 827001153}
-  portrait: {fileID: 0}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4373,7 +4423,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 827001153}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 6851498383279292439, guid: 8f79857dd018213428a2f38b6fb823d3,
+  portrait: {fileID: -5969063626333378573, guid: 98f39ab4611054047b388664aa14eb31,
     type: 3}
   offset: 0
   fromPosition: {fileID: 631454109}
@@ -4451,7 +4501,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1873714636
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4468,7 +4518,7 @@ MonoBehaviour:
   sprite: {fileID: 2045932778561842437, guid: 989b8eaeeb3acea4e869744caf9a843b, type: 3}
 --- !u!114 &1873714637
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4488,7 +4538,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &1873714638
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4506,6 +4556,472 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1873714639
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  duration: 0
+  targetView: {fileID: 1148822249}
+  waitUntilFinished: 0
+  targetCamera: {fileID: 965716660}
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &1873714640
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  duration: 1
+  targetView: {fileID: 700150939}
+  waitUntilFinished: 1
+  targetCamera: {fileID: 965716660}
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &1873714641
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 827001153}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: -5969063626333378573, guid: 98f39ab4611054047b388664aa14eb31,
+    type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1631928884}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1873714642
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+  storyText: Indeed! The rooks are over there, they practice a lot there, I can introduce
+    you to them!
+  description: 
+  character: {fileID: 827001153}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1873714643
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -209.62778
+    y: 1057.296
+    width: 166.45999
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 144
+  blockName: Option 5.1 Response
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1873714642}
+  suppressAllAutoSelections: 0
+--- !u!114 &1873714644
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  storyText: Um- okay, just follow me-
+  description: 
+  character: {fileID: 827001153}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1873714645
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 185.03667
+    y: 1077.5378
+    width: 168.51999
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 143
+  blockName: Option 5.3 Response
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1873714644}
+  suppressAllAutoSelections: 0
+--- !u!114 &1873714647
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 131
+  indentLevel: 0
+  storyText: "Oh yes! The school doesn\u2019t really advertise it, I think they should,
+    but we have a team and all! "
+  description: 
+  character: {fileID: 827001153}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1873714648
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -4.8665257
+    y: 1111.5675
+    width: 168.15
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 142
+  blockName: Option 5.2 Response
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1873714647}
+  - {fileID: 1873714657}
+  suppressAllAutoSelections: 0
+--- !u!114 &1873714649
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  text: I hate football.
+  description: 
+  targetBlock: {fileID: 1873714645}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1873714650
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  text: "Oh you have a football field? That is pretty cool! I\u2019d love to see
+    it!"
+  description: 
+  targetBlock: {fileID: 1873714648}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1873714651
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  text: Alright! I am looking forward to seeing the football field!
+  description: 
+  targetBlock: {fileID: 1873714643}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1873714652
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  storyText: Okay! I think we are ready to move on to the football field!
+  description: 
+  character: {fileID: 827001153}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1873714653
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 21.831684
+    y: 966.2346
+    width: 110.19
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 141
+  blockName: Dialogue 5
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1873714652}
+  - {fileID: 1873714651}
+  - {fileID: 1873714650}
+  - {fileID: 1873714649}
+  suppressAllAutoSelections: 0
+--- !u!114 &1873714654
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 139
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1873714653}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1873714655
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1873714653}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1873714656
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1873714653}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1873714657
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873714521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  indentLevel: 0
+  storyText: I think the rooks are over there so I can introduce you to them!
+  description: 
+  character: {fileID: 827001153}
+  portrait: {fileID: -7198305676424334115, guid: b3f4bd06f8af43a43a3f1630be190667,
+    type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &2003850353
 GameObject:
   m_ObjectHideFlags: 0
@@ -4540,7 +5056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.5, y: -38.369995}
+  m_AnchoredPosition: {x: 586.5, y: -42}
   m_SizeDelta: {x: 1106, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003850355
@@ -4687,7 +5203,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054206183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
